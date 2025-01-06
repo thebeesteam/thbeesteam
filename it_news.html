@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>The Bees</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<style>
+        /* CSS untuk Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            padding: 50px;
+            height: 100vh;
+        }
+</style>
+<style>
+  .floating-arrow {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    z-index: 9999;
+}
+
+.floating-arrow:hover {
+    opacity: 1;
+}
+
+/* Menyembunyikan tombol panah jika halaman berada di bagian atas */
+.floating-arrow.hidden {
+    display: none;
+}
+</style>
+<!--readmore-->
+    <style>
+        .more-content {
+            display: none;
+            margin-top: 10px;
+        }
+        .read-more-btn {
+            cursor: pointer;
+            color: #007BFF;
+            text-decoration: underline;
+        }
+    </style>
+<!-- site icons -->
+<link rel="icon" href="images/fevicon/The Bees.png" type="image/gif" />
+<!-- bootstrap css -->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<!-- Site css -->
+<link rel="stylesheet" href="css/style.css" />
+<!-- responsive css -->
+<link rel="stylesheet" href="css/responsive.css" />
+<!-- colors css -->
+<link rel="stylesheet" href="css/colors1.css" />
+<!-- custom css -->
+<link rel="stylesheet" href="css/custom.css" />
+<!-- wow Animation css -->
+<link rel="stylesheet" href="css/animate.css" />
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+<!--form tally-->
+<script async src="https://tally.so/widgets/embed.js"></script>
+</head>
+<body id="default_theme" class="it_service blog_grid new_page">
+<!-- loader -->
+<div class="bg_load"> <img class="loader_animation" src="images/loaders/loader_1.png" alt="#" /> </div>
+<!-- end loader -->
+<!-- header -->
+<header id="default_header" class="header_style_1">
+  <!-- header top -->
+  <div class="header_top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="full">
+            <div class="topbar-left">
+              <ul class="list-inline">
+                <li> <span class="topbar-label"><i class="fa  fa-home"></i></span> <span class="topbar-hightlight">Jalan Pahlawan No. 690, Bale Atu</span> </li>
+                <li> <span class="topbar-label"><i class="fa fa-envelope-o"></i></span> <span class="topbar-hightlight"><a href="mailto:forspi2024.com">forspi2024@gmail.com</a></span> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 right_section_header_top">
+          <div class="float-right">
+            <div class="make_appo"> <a class="btn white_btn" href="#tally-open=w2OM6b&tally-emoji-text=👋&tally-emoji-animation=wave">Saran dan Evaluasi</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end header top -->
+ <!-- header bottom -->
+  <div class="header_bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+          <!-- logo start -->
+          <div class="logo"> <a href="it_home.html"><img src="images/logos/logo_thebees.png" alt="logo" /></a> </div>
+          <!-- logo end -->
+        </div>
+        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+          <!-- menu start -->
+          <div class="menu_side">
+            <div id="navbar_menu">
+              <ul class="first-ul">
+                <li> <a class="active" href="it_home.html">Beranda</a>
+                  </li>
+                <li><a href="it_about.html">The Bees</a></li>
+                <li> <a href="#">Layanan</a>
+                  <ul>
+                    <li><a href="https://thebeesteam.github.io/thbeesteam/#Penganggaran">Penganggaran</a></li>
+                    <li><a href="https://thebeesteam.github.io/thbeesteam/#Keuangan">Keuangan</a></li>
+                    <li><a href="https://thebeesteam.github.io/thbeesteam/#Pengadaan">Pengadaan</a></li>
+                    <li><a href="https://thebeesteam.github.io/thbeesteam/#Indikator">Informasi Indikator Kinerja</a></li>
+                    <li><a href="https://thebeesteam.github.io/thbeesteam/#Penghargaan">Informasi Penghargaan</a></li>
+                  </ul>
+                </li>
+                <li> <a href="#">Tautan Terkait</a>
+                  <ul>
+                    <li><a href="#">Keuangan</a>
+                      <ul>
+                        <li><a href="https://sakti.kemenkeu.go.id/" target="_blank">SAKTI</a></li>
+                        <li><a href="https://spanint.kemenkeu.go.id/" target="_blank">OM SPAN</a></li>
+                        <li><a href="https://backoffice.bps.go.id/" target="_blank">BOS</a></li>
+                        <li><a href="https://gaji.kemenkeu.go.id/" target="_blank">Gaji Web</a></li>
+                        <li><a href="https://monsakti.kemenkeu.go.id/" target="_blank">Mon SAKTI</a></li>
+                        <li><a href="https://spi.bps.go.id/" target="_blank">SPI BPS</a></li>
+                        <li><a href="https://cms.bankbsi.co.id/" target="_blank">CMS</a></li>
+                        <li><a href="https://djponline.pajak.go.id/" target="_blank">DJP Online</a></li>
+                        <li><a href="https://spanext.kemenkeu.go.id/spanext/" target="_blank">SPAN EXT</a></li>
+                        <li><a href="https://ettd.bps.go.id/" target="_blank">ETTD BPS</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Pengadaan</a>
+                      <ul>
+                      <li><a href="https://sirup.lkpp.go.id/" target="_blank">SIRUP</a></li>
+                      <li><a href="https://lpse.bps.go.id/" target="_blank">LPSE</a></li>
+                      <li><a href="https://inaproc.id/" target="_blank">INAPROC</a></li>
+                      <li><a href="https://sikap.lkpp.go.id/" target="_blank">SIKAP</a></li>
+                      <li><a href="https://e-katalog.lkpp.go.id/" target="_blank">e-Katalog</a></li>
+                      <li><a href="https://s.bps.go.id/bps106_kertaskerjaRUP"target="_blank">Kertas Kerja RUP</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Kompetensi</a>
+                      <ul>
+                      <li><a href="https://e-jafung.kemenkeu.go.id/" target="_blank">e-Jafung</a></li>
+                      <li><a href="https://klc2.kemenkeu.go.id/" target="_blank">KLC</a></li>
+                      <li><a href="https://elearning.lkpp.go.id/" target="_blank">e-Learning LKPP</a></li>
+                      <li><a href="https://sites.google.com/view/ap-pelatihan-kl/home/" target="_blank">SWIPe-AP</a></li>
+                      <li><a href="https://simaspaten.kemenkeu.go.id/" target="_blank">SIMASPATEN</a></li>
+                      <li><a href="https://baru.jafung-perbendaharaan.info/" target="_blank">Buku Saku Perbendaaraan</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="#">Referensi</a>
+                  <ul>
+                    <li><a href="https://s.bps.go.id/bps1106_RegulasiKeuangan" target="_blank">Regulasi Keuangan</a></li>
+                    <li><a href="https://s.bps.go.id/bps1106_ReguulasiPengadaan" target="_blank">Regulasi Pengadaan</a></li>
+                    <li><a href="https://s.bps.go.id/bps1106_TemplateDokAdm" target="_blank">Template Dokumen Adm</a></li>
+                    <li><a href="https://s.bps.go.id/bps1106_PAK" target="_blank">Pedoman Adm. Keuangan</a></li>
+                    <li><a href="https://s.bps.go.id/bps1106_PedomanBOS" target="_blank">Pedoman BOS</a></li>
+                    <li><a href="https://djpb.kemenkeu.go.id/kppn/kotabumi/id/sakti/juknis-aplikasi-sakti.html" target="_blank">Juknis SAKTI</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="search_icon">
+              <ul>
+                <li><a href="#" data-toggle="modal" data-target="#search_bar"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- menu end -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header bottom end -->
+</header>
+<!-- end header -->
+<div class="floating-arrow" id="scrollToTopBtn">
+        &#8593; <!-- Ini simbol panah atas -->
+</div>
+<!-- inner page banner -->
+<div id="inner_banner" class="section inner_banner_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="full">
+          <div class="title-holder">
+            <div class="title-holder-cell text-left">
+              <h1 class="page-title">Informasi dan Pengumuman</h1>
+              <ol class="breadcrumb">
+                <li><a href="index.html">Beranda</a></li>
+                <li>Layanan</li>
+                <li class="active">Peengumuman</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end inner page banner -->
+<!-- section -->
+<div class="section padding_layout_1 blog_grid">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <div class="full">
+          <div class="blog_section">
+            <div class="blog_feature_img"> <img class="img-responsive" src="images/it_service/22.jpg" alt="#"> </div>
+            <div class="blog_feature_cantant">
+              <p class="blog_head">Rasionalisasi Anggaran 2025</p>
+              <div class="post_info">
+                <ul>
+                  <li><i class="fa fa-user" aria-hidden="true"></i> Penganggaran</li>
+                  <li><i class="fa fa-calendar" aria-hidden="true"></i>02 Jan 2025</li>
+                </ul>
+              </div>
+              <p> Berikut kami sampaikan kertas kerja hasil revisi POK sehubungan dg Blokir Anggaran 524 (Kemenkeu) dan Rasionalisasi (BPS)sesuai dasar hitung dr BPS Pusat pada lampiran Surat Kepala BPS Prov. Aceh Nomor S-1932/11000/PR.400/2024. </p>
+
+              <p>Link kertas kerja hasil revisi POK:</p>
+              <a href="https://s.bps.go.id/bps1106_rasionalisasi2025" target="_blank">POK Rasionalisasi</a>
+              <br>
+              <br>
+              <p> Penjelasan: </p>
+                              
+              <!-- Konten tambahan yang disembunyikan -->
+                  <div class="more-content" style="display: none;">
+                      <p> 1. Kolom "Perubahan" merupakan nilai anggaran yang mengalami perubahan, Menjadi-Semula. </p>
+                <p> 2. Kolom "Blokir" merupakan nilai blokir anggaran Kemenkeu. </p>
+                <p> 3. Item "Konsolidasi pelaksanaan kegiatan" merupakan nilai rasionalisasi anggaran. </p>
+                <p> 4. Kolom "Sisa Dana" merupakan nilai anggaran setelah pengurangan blokir dan rasioanlisasi. Ini merupakan Anggaran yang dapat digunakan. </p>
+                      <p>Petunjuk:</p>
+                <p> 1. Kertas kerja POK tsb akan digunakan sbg dasar entri pada aplikasi SAKTI dan BOS (hasil disampaikan menyusul). </p>
+                <p> 2. Silakan temen2 memberikan tanggapan terkait rasionalisasi pada kolom "Tanggapan" jika diperlukan, ditunggu sd. Senin, 06 Januari 2025. </p>
+                <p> 3. Sampai dengan adanya aturan dari Kemenkeu, maka total akun belanja perjalanan dinas (524xxx) harus dijaga, serta tidak mengubah selain perubahan karena dasar hitung.</p>
+            <p>Demikian disampaikan utk mjd pedoman bersama, atas perhatiannya diucapkan terima kasih.</p>
+                  </div>
+
+               <!-- Tombol Read More -->
+                <div class="bottom_info">
+                    <div class="pull-left">
+                        <a href="javascript:void(0);" class="read_more" onclick="toggleContent()">READ MORE <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+
+             
+            </div>
+          </div>
+          <div class="blog_section">
+            <div class="blog_feature_cantant theme_color_bg white_fonts">
+              <p class="blog_head">Blogpost With Image</p>
+              <div class="post_info">
+                <ul>
+                  <li><i class="fa fa-user" aria-hidden="true"></i> Marketing</li>
+                  <li><i class="fa fa-comment" aria-hidden="true"></i> 5</li>
+                  <li><i class="fa fa-calendar" aria-hidden="true"></i> 12 Aug 2017</li>
+                </ul>
+              </div>
+              <p>Consectetur, assumenda provident lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae laboriosam sunt hic perspiciatis, 
+                asperiores mollitia excepturi voluptatibus sequi nostrum ipsam veniam omnis nihil! A ea maiores corporis. Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              <div class="bottom_info">
+                <div class="pull-left"><a class="read_more" href="it_blog_detail.html">READ MORE <i class="fa fa-angle-right"></i></a></div>
+                <div class="pull-right">
+                  <div class="shr">Share: </div>
+                  <div class="social_icon">
+                    <ul>
+                      <li class="fb"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                      <li class="twi"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                      <li class="gp"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                      <li class="pint"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <div class="full">
+          <div class="blog_section">
+            <div class="blog_feature_cantant theme_color_bg white_fonts">
+              <p class="blog_head">Blogpost With Image</p>
+              <div class="post_info">
+                <ul>
+                  <li><i class="fa fa-user" aria-hidden="true"></i> Marketing</li>
+                  <li><i class="fa fa-comment" aria-hidden="true"></i> 5</li>
+                  <li><i class="fa fa-calendar" aria-hidden="true"></i> 12 Aug 2017</li>
+                </ul>
+              </div>
+              <p>Consectetur, assumenda provident lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae laboriosam sunt hic perspiciatis, 
+                asperiores mollitia excepturi voluptatibus sequi nostrum ipsam veniam omnis nihil! A ea maiores corporis. Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              <div class="bottom_info">
+                <div class="pull-left"><a class="read_more" href="it_blog_detail.html">READ MORE <i class="fa fa-angle-right"></i></a></div>
+                <div class="pull-right">
+                  <div class="shr">Share: </div>
+                  <div class="social_icon">
+                    <ul>
+                      <li class="fb"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                      <li class="twi"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                      <li class="gp"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                      <li class="pint"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog_section">
+            <div class="blog_feature_img"> <img class="img-responsive" src="images/it_service/dark_bg_img2.png" alt="#"> </div>
+            <div class="blog_feature_cantant">
+              <p class="blog_head">Blogpost With Image</p>
+              <div class="post_info">
+                <ul>
+                  <li><i class="fa fa-user" aria-hidden="true"></i> Marketing</li>
+                  <li><i class="fa fa-comment" aria-hidden="true"></i> 5</li>
+                  <li><i class="fa fa-calendar" aria-hidden="true"></i> 12 Aug 2017</li>
+                </ul>
+              </div>
+              <p>Consectetur, assumenda provident lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae laboriosam sunt hic perspiciatis, 
+                asperiores mollitia excepturi voluptatibus sequi nostrum ipsam veniam omnis nihil! A ea maiores corporis. Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              <div class="bottom_info">
+                <div class="pull-left"><a class="read_more" href="it_blog_detail.html">READ MORE <i class="fa fa-angle-right"></i></a></div>
+                <div class="pull-right">
+                  <div class="shr">Share: </div>
+                  <div class="social_icon">
+                    <ul>
+                      <li class="fb"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                      <li class="twi"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                      <li class="gp"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                      <li class="pint"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <div class="full">
+          <div class="blog_section">
+            <div class="blog_feature_img"> <img class="img-responsive" src="images/it_service/post-03.jpg" alt="#"> </div>
+          </div>
+          <div class="blog_section" style="margin-bottom: 0;">
+            <div class="blog_feature_img"> <img class="img-responsive" src=" images/it_service/22.jpg" alt="#"> </div>
+            <div class="blog_feature_cantant">
+              <p class="blog_head">Blogpost With Image</p>
+              <div class="post_info">
+                <ul>
+                  <li><i class="fa fa-user" aria-hidden="true"></i> Marketing</li>
+                  <li><i class="fa fa-comment" aria-hidden="true"></i> 5</li>
+                  <li><i class="fa fa-calendar" aria-hidden="true"></i> 12 Aug 2017</li>
+                </ul>
+              </div>
+              <p>Consectetur, assumenda provident lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae laboriosam sunt hic perspiciatis, 
+                asperiores mollitia excepturi voluptatibus sequi nostrum ipsam veniam omnis nihil! A ea maiores corporis. Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              <div class="bottom_info">
+                <div class="pull-left"><a class="read_more" href="it_blog_detail.html">READ MORE <i class="fa fa-angle-right"></i></a></div>
+                <div class="pull-right">
+                  <div class="shr">Share: </div>
+                  <div class="social_icon">
+                    <ul>
+                      <li class="fb"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                      <li class="twi"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                      <li class="gp"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                      <li class="pint"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog_section">
+            <div class="blog_feature_img"> <img class="img-responsive" src="images/it_service/dark_bg_img.png" alt="#"> </div>
+          </div>
+        </div>
+      </div>
+      <div class="center">
+        <ul class="pagination style_1">
+          <li><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+          <li><a href="it_blog.html">1</a></li>
+          <li class="active"><a href="#">2</a></li>
+          <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end section -->
+<!-- section -->
+<div class="section padding_layout_1 testmonial_section white_fonts" id="akhir">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="full">
+          <div class="main_heading text_align_left">
+            <h2 style="text-transform: none;">Siapa The Bees?</h2>
+            <p class="large">Berikut merupakan anggota The Bees</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-7">
+        <div class="full">
+          <div id="testimonial_slider" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#testimonial_slider" data-slide-to="0" class="active"></li>
+              <li data-target="#testimonial_slider" data-slide-to="1"></li>
+              <li data-target="#testimonial_slider" data-slide-to="2"></li>
+              <li data-target="#testimonial_slider" data-slide-to="3"></li>
+              <li data-target="#testimonial_slider" data-slide-to="4"></li>
+              <li data-target="#testimonial_slider" data-slide-to="5"></li>
+              <li data-target="#testimonial_slider" data-slide-to="6"></li>
+            </ul>
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="testimonial-container">
+                  <div class="testimonial-content"> PPK berperan pada proses pengadaan barang/jasa mulai dari persiapan pengadaan hingga pengujian atas bukti pembayaran. 
+                    PPK wajib memiliki kompetensi PNT. </div>
+                  <div class="testimonial-photo"> <img src="images/it_service/client1a.jpg" class="img-responsive" alt="#" width="150" height="150"> </div>
+                  <div class="testimonial-meta">
+                    <h4>Muflik Teguh</h4>
+                    <span class="testimonial-position">Pejabat Pembuat Komitmen (PPK)</span> </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonial-container">
+                  <div class="testimonial-content"> PPSPM berperan dalam melakukan pengujian atas dokumen permintaan pembayaran dan menerbitkan SPM. 
+                    PPSPM wajib memiliki kompetensi SNT. </div>
+                  <div class="testimonial-photo"> <img src="images/it_service/client2.jpg" class="img-responsive" alt="#" width="150" height="150"> </div>
+                  <div class="testimonial-meta">
+                    <h4>Hendra Saputra</h4>
+                    <span class="testimonial-position">Pejabat Penandatangan SPM (PPSPM)</span> </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonial-container">
+                  <div class="testimonial-content"> Bendahara Pengeluaran berperan dalam melakukan pengelolaan kas, pembayaran, dan pemungutan pajak. 
+                    Bendahara wajib memiliki kompetensi BNT. </div>
+                  <div class="testimonial-photo"> <img src="images/it_service/client3.jpg" class="img-responsive" alt="#" width="150" height="150"> </div>
+                  <div class="testimonial-meta">
+                    <h4>Rania Sahira</h4>
+                    <span class="testimonial-position">Bendahara Pengeluaran</span> </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonial-container">
+                  <div class="testimonial-content"> Pejabat Pengadaan Barang dan Jasa berperan melakukan pemilihan penyedia pada proses pengadaan barang/jasa melalui metode pengadaan langsung atau epurchasing</div>
+                  <div class="testimonial-photo"> <img src="images/it_service/client1b.jpg" class="img-responsive" alt="#" width="150" height="150"> </div>
+                  <div class="testimonial-meta">
+                    <h4>Alif Muhammad Arrasyid</h4>
+                    <span class="testimonial-position">Pejabat Pengadaan Barang dan Jasa</span> </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonial-container">
+                  <div class="testimonial-content"> Operator BMN berperan melakukan pengelolaan dan pencatatan masuk, keluar, perubahan status, dan penghapusan aset, serta pengelolaan barang persediaan. 
+                   </div>
+                  <div class="testimonial-photo"> <img src="images/it_service/client4.jpg" class="img-responsive" alt="#" width="150" height="150"> </div>
+                  <div class="testimonial-meta">
+                    <h4>Siti Nurrahmah</h4>
+                    <span class="testimonial-position">Operator BMN</span> </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonial-container">
+                  <div class="testimonial-content"> PPABP pertugas atas pengelolan administrasi data pegawai yang digunakan sebagai referensi PPK melakukan pembayaran belanja pegawai. 
+                   </div>
+                  <div class="testimonial-photo"> <img src="images/it_service/client5.jpg" class="img-responsive" alt="#" width="150" height="150"> </div>
+                  <div class="testimonial-meta">
+                    <h4>Fani Visara</h4>
+                    <span class="testimonial-position">Petugas Pengelola Administrasi Belanja Pegawai (PPABP)</span> </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonial-container">
+                  <div class="testimonial-content"> Operator GLP berperan melakukan pencatatan transaksi, penjurnalan, rekonsiliasi, dan penyusunan laporan keuangan tingkat Saker. 
+                   </div>
+                  <div class="testimonial-photo"> <img src="images/it_service/client6.jpg" class="img-responsive" alt="#" width="150" height="150"> </div>
+                  <div class="testimonial-meta">
+                    <h4>Salsabila Shafa</h4>
+                    <span class="testimonial-position">Operator General Ledger dan Pelaporan (GLP)</span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-5">
+        <div class="full"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end section -->
+<!-- section -->
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="full">
+          <div class="contact_us_section">
+            <div class="call_icon"> <img src="images/it_service/phone_icon.gif" alt="#" /> </div>
+            <div class="inner_cont">
+              <h2>The Bees</h2>
+              <p>@2025 - dibuat dengan hati untuk pelayanan lebih berarti.</p>
+            </div>
+            <div class="button_Section_cont"> <a class="btn dark_gray_bt" href="it_about.html">About Us</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end section -->
+<!-- Modal -->
+<div class="modal fade" id="search_bar" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><i class="fa fa-close"></i></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-8 offset-lg-2 offset-md-2 offset-sm-2 col-xs-10 col-xs-offset-1">
+            <div class="navbar-search">
+              <form action="#" method="get" id="search-global-form" class="search-global">
+                <input type="text" placeholder="Type to search" autocomplete="off" name="s" id="search" value="" class="search-global__input">
+                <button class="search-global__btn"><i class="fa fa-search"></i></button>
+                <div class="search-global__note">Begin typing your search above and press return to search.</div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Model search bar -->
+<!-- js section -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- menu js -->
+<script src="js/menumaker.js"></script>
+<!-- wow animation -->
+<script src="js/wow.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+<script>
+  // Ambil elemen tombol panah
+const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+// Event listener untuk klik panah
+scrollToTopBtn.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+// Fungsi untuk mengecek posisi scroll
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        // Menampilkan tombol panah ketika scroll lebih dari 300px
+        scrollToTopBtn.classList.remove('hidden');
+    } else {
+        // Menyembunyikan tombol panah ketika di atas halaman
+        scrollToTopBtn.classList.add('hidden');
+    }
+});
+</script>
+<!--readmore-->
+    <script>
+        // Fungsi untuk toggle konten
+        function toggleContent() {
+            var content = document.querySelector('.more-content');
+            var button = document.querySelector('.read_more');
+
+            if (content.style.display === "none") {
+                content.style.display = "block";
+                button.innerHTML = 'READ LESS <i class="fa fa-angle-up"></i>'; // Ubah teks tombol
+            } else {
+                content.style.display = "none";
+                button.innerHTML = 'READ MORE <i class="fa fa-angle-right"></i>'; // Kembalikan teks tombol
+            }
+        }
+    </script>
+</body>
+</html>
